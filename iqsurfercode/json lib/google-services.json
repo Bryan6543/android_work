@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "683094346612",
+    "project_id": "iqbarsurfer",
+    "storage_bucket": "iqbarsurfer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683094346612:android:20cb7b5c03ef612ce2ba21",
+        "android_client_info": {
+          "package_name": "com.example.iqbarsurfer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683094346612-ddh82baq1v3tsk0hvv10o1bckvcvb0jo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iqbarsurfer",
+            "certificate_hash": "fe6c911106a125556f31f7187adba2d938ff7ee5"
+          }
+        },
+        {
+          "client_id": "683094346612-kvulqo53psf4cokt5erc33mj7ttrhhaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4ZtqpfxvL8P55WEwgLXtGm1sWvEgK18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683094346612-kvulqo53psf4cokt5erc33mj7ttrhhaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
