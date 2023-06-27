@@ -33,6 +33,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".quiz"
+            android:exported="true" />
+        <activity
+            android:name=".scoreDisplay"
+            android:exported="true" />
     </application>
 
 </manifest>

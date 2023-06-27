@@ -10,4 +10,14 @@
     <string name="click_to_login">Click to Login</string>
     <string name="something">something</string>
     <string name="logout">logout</string>
+    <string name="submit">Submit</string>
+    <string name="option_4">Option 4</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_1">Option 1</string>
+    <string name="question">Question</string>
+    <string name="take_quest">Take Quest</string>
+    <string name="see_score">See Score</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="out_of_10_questions">Out of 10 questions</string>
 </resources>

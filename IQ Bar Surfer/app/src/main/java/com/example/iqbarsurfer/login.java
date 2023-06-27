@@ -59,13 +59,16 @@ public class login extends AppCompatActivity {
             semail = String.valueOf(edittextemail.getText());
             spassword = String.valueOf(edittextpassword.getText());
 
+
             if (TextUtils.isEmpty(semail)){
                 Toast.makeText(login.this, "Enter Email", Toast.LENGTH_SHORT).show();
+                progressb.setVisibility(View.GONE);
                 return;
             }
 
             if (TextUtils.isEmpty(spassword)){
                 Toast.makeText(login.this, "Enter Password", Toast.LENGTH_SHORT).show();
+                progressb.setVisibility(View.GONE);
                 return;
             }
 
