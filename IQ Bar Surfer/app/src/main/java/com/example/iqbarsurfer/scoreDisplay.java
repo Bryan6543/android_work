@@ -17,7 +17,7 @@ public class scoreDisplay extends AppCompatActivity {
     FirebaseAuth auth;
     FirebaseUser user;
     TextView tv;
-    Button btn;
+    Button btn , btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class scoreDisplay extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         user = auth.getCurrentUser();
         btn = findViewById(R.id.btn_logout);
+        btn2 = findViewById(R.id.seeAnswer);
         tv = findViewById(R.id.tv_something);
 
         if (user == null){
@@ -41,6 +42,12 @@ public class scoreDisplay extends AppCompatActivity {
         btn.setOnClickListener(v -> {
             FirebaseAuth.getInstance().signOut();
             Intent intent = new Intent(getApplicationContext(), login.class);
+            startActivity(intent);
+            finish();
+        });
+
+        btn2.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), correctAnswers.class);
             startActivity(intent);
             finish();
         });
