@@ -4,40 +4,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="30dp"
+    android:layout_marginTop="50dp"
     tools:context=".quiz" >
 
     <TextView
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
         android:id="@+id/questionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/question" />
 
     <RadioGroup
+        android:padding="20dp"
         android:id="@+id/optionsRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <RadioButton
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/option1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_1" />
 
         <RadioButton
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/option2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_2" />
 
         <RadioButton
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/option3RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_3" />
 
         <RadioButton
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/option4RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,17 +58,25 @@
     </RadioGroup>
 
     <Button
+        android:layout_marginTop="20dp"
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/submit" />
 
-    <Button
-        android:id="@+id/seeScoreButton"
+    <TextView
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:text="@string/see_score"
+        android:layout_marginTop="30dp"
+        android:text="@string/remember_iq_questions_can_vary_in_difficulty_and_may_not_solely_determine_a_person_s_intelligence"
         />
+<!--    <Button-->
+<!--        android:id="@+id/seeScoreButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"-->
+<!--        android:text="@string/see_score"-->
+<!--        />-->
 
 </LinearLayout>

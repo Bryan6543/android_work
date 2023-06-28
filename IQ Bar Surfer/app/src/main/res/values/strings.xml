@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iqbarsurfer</string>
+    <string name="app_name">IQ barSurfer</string>
     <string name="loadimage">loadimage\n</string>
     <string name="appName">IQ BAR SURFER</string>
     <string name="login">login</string>
@@ -20,4 +20,5 @@
     <string name="see_score">See Score</string>
     <string name="restart_quiz">Restart Quiz</string>
     <string name="out_of_10_questions">Out of 10 questions</string>
+    <string name="remember_iq_questions_can_vary_in_difficulty_and_may_not_solely_determine_a_person_s_intelligence">Remember, IQ questions can vary in difficulty and may not solely determine a person\'s intelligence.</string>
 </resources>
