@@ -6,28 +6,51 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_height="match_parent"
+    android:background="@drawable/woodentreeblack"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_iq_bar_surfer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="150dp"
+        android:textSize="35sp"/>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
         android:text="@string/more_iq_test_options_on_the_next_update"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_takeQuest"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#276E01"
         android:gravity="center"
         android:text="@string/take_quest"
         android:layout_marginBottom="100dp"
         />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/user"
+        />
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_something"
         android:gravity="center"
+        android:textSize="20sp"
         android:layout_marginBottom="100dp"
         />
 
@@ -35,6 +58,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_logout"
+        android:backgroundTint="#9C000D"
+        android:textColor="@color/white"
         android:gravity="center"
         android:text="@string/logout"
         />

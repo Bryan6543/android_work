@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/woodentreeblack"
     android:padding="16dp"
     tools:context=".scoreDisplay">
 
@@ -12,6 +13,7 @@
         android:id="@+id/scoreTextView"
         android:layout_marginBottom="10dp"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:textSize="104sp"
         />
@@ -21,18 +23,23 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
         android:text="@string/out_of_10_questions"/>
     <Button
         android:id="@+id/restartButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="#155C13"
         android:text="@string/restart_quiz" />
 
     <Button
         android:id="@+id/seeAnswer"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#9A5D00"
         android:text="@string/see_answers" />
 
 
@@ -49,7 +56,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_logout"
+        android:backgroundTint="#950000"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="@string/logout"
         />
 

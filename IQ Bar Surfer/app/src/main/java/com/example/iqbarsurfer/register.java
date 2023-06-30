@@ -1,7 +1,10 @@
 package com.example.iqbarsurfer;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -35,7 +38,11 @@ public class register extends AppCompatActivity {
             finish();
         }
     }
-
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +61,11 @@ public class register extends AppCompatActivity {
         });
 
         buttonReg.setOnClickListener(v -> {
+            if (!isNetworkAvailable()) {
+                // No internet connection, display toast message
+                Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show();
+            }
+
             progressb.setVisibility(View.VISIBLE);
             String semail, spassword;
             semail = String.valueOf(edittextemail.getText());

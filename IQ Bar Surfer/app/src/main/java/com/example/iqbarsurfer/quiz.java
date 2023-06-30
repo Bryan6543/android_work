@@ -18,6 +18,7 @@ public class quiz extends AppCompatActivity {
     private int currentQuestionIndex;
     private int score;
 //    Button  scorebtn;
+    Button leave;
     private TextView questionTextView;
     private RadioGroup optionsRadioGroup;
 
@@ -29,6 +30,13 @@ public class quiz extends AppCompatActivity {
         questionTextView = findViewById(R.id.questionTextView);
         optionsRadioGroup = findViewById(R.id.optionsRadioGroup);
         Button submitButton = findViewById(R.id.submitButton);
+        leave = findViewById(R.id.leave);
+
+        leave.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
+        });
 
         // Prepare the questions
         questionList = new ArrayList<>();

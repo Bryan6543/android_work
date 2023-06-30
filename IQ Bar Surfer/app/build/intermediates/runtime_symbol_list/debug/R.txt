@@ -2923,6 +2923,7 @@ int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
+int drawable bg_button_grd 0x7f0700f6
 int drawable btn_checkbox_checked_mtrl 0x7f07007a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007b
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007c
@@ -3046,6 +3047,7 @@ int drawable notify_panel_notification_icon_bg 0x7f0700f1
 int drawable test_level_drawable 0x7f0700f2
 int drawable tooltip_frame_dark 0x7f0700f3
 int drawable tooltip_frame_light 0x7f0700f4
+int drawable woodentreeblack 0x7f0700f5
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -3295,6 +3297,7 @@ int id jumpToEnd 0x7f0800f5
 int id jumpToStart 0x7f0800f6
 int id labeled 0x7f0800f7
 int id layout 0x7f0800f8
+int id leave 0x7f080213
 int id left 0x7f0800f9
 int id leftToRight 0x7f0800fa
 int id legacy 0x7f0800fb
@@ -3860,6 +3863,7 @@ int string fab_transformation_sheet_behavior 0x7f10004b
 int string fallback_menu_item_copy_link 0x7f10004c
 int string fallback_menu_item_open_in_browser 0x7f10004d
 int string fallback_menu_item_share_link 0x7f10004e
+int string forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery 0x7f1000eb
 int string gcm_defaultSenderId 0x7f10004f
 int string google_api_key 0x7f100050
 int string google_app_id 0x7f100051
@@ -3874,6 +3878,7 @@ int string if_all_bloops_are_razzies_and_all_razzies_are_lazzies_then_which_of_t
 int string if_you_rearrange_the_letters_eviction_you_would_get_the_name_of_a 0x7f10005a
 int string if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a 0x7f10005b
 int string item_view_role_description 0x7f10005c
+int string leave 0x7f1000ea
 int string loadimage 0x7f10005d
 int string login 0x7f10005e
 int string logout 0x7f10005f
@@ -4010,6 +4015,8 @@ int string status_bar_notification_info_overflow 0x7f1000e1
 int string submit 0x7f1000e2
 int string take_quest 0x7f1000e3
 int string time_of_day 0x7f1000e4
+int string user 0x7f1000e8
+int string welcome_to_iq_bar_surfer 0x7f1000e9
 int string what_number_comes_next_in_the_sequence_1_4_9_16_25 0x7f1000e5
 int string which_of_the_following_words_is_the_odd_one_out 0x7f1000e6
 int string which_one_of_the_five_is_least_like_the_other_four 0x7f1000e7

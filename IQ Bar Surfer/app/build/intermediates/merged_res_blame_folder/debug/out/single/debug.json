@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.iqbarsurfer.app-merged_res-33:/layout_activity_login.xml.flat",
+        "source": "com.example.iqbarsurfer.app-main-35:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\drawable_woodentreeblack.jpg.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\drawable\\woodentreeblack.jpg"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -80,12 +88,12 @@
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.iqbarsurfer.app-merged_res-33:/layout_activity_score.xml.flat",
-        "source": "com.example.iqbarsurfer.app-main-35:/layout/activity_score.xml"
-    },
-    {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\drawable_bg_button_grd.xml.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-main-35:\\drawable\\bg_button_grd.xml"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.0\\com.example.iqbarsurfer.app-merged_res-33:\\layout_activity_quiz.xml.flat",

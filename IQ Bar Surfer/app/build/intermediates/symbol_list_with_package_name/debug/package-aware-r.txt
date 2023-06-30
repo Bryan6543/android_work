@@ -2924,6 +2924,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_button_grd
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3047,6 +3048,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable woodentreeblack
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3296,6 +3298,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id leave
 id left
 id leftToRight
 id legacy
@@ -3861,6 +3864,7 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -3875,6 +3879,7 @@ string if_all_bloops_are_razzies_and_all_razzies_are_lazzies_then_which_of_the_f
 string if_you_rearrange_the_letters_eviction_you_would_get_the_name_of_a
 string if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a
 string item_view_role_description
+string leave
 string loadimage
 string login
 string logout
@@ -4011,6 +4016,8 @@ string status_bar_notification_info_overflow
 string submit
 string take_quest
 string time_of_day
+string user
+string welcome_to_iq_bar_surfer
 string what_number_comes_next_in_the_sequence_1_4_9_16_25
 string which_of_the_following_words_is_the_odd_one_out
 string which_one_of_the_five_is_least_like_the_other_four

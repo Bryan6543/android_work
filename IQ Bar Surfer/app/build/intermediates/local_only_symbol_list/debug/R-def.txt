@@ -2,9 +2,11 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+drawable bg_button_grd
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable load_image
+drawable woodentreeblack
 id Login
 id Login_progressbar
 id R_progressbar
@@ -15,6 +17,7 @@ id btn_logout
 id btn_register
 id btn_takeQuest
 id email
+id leave
 id load_image
 id option1RadioButton
 id option2RadioButton
@@ -54,6 +57,7 @@ string click_to_login
 string click_to_register
 string default_web_client_id
 string email
+string forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -65,6 +69,7 @@ string if_a_quarter_and_a_dime_were_in_your_pocket_and_you_took_out_a_nickel_how
 string if_all_bloops_are_razzies_and_all_razzies_are_lazzies_then_which_of_the_following_statements_must_be_true
 string if_you_rearrange_the_letters_eviction_you_would_get_the_name_of_a
 string if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a
+string leave
 string loadimage
 string login
 string logout
@@ -90,6 +95,8 @@ string something
 string submit
 string take_quest
 string time_of_day
+string user
+string welcome_to_iq_bar_surfer
 string what_number_comes_next_in_the_sequence_1_4_9_16_25
 string which_of_the_following_words_is_the_odd_one_out
 string which_one_of_the_five_is_least_like_the_other_four

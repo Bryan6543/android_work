@@ -2,7 +2,7 @@
     <string name="app_name">IQ barSurfer</string>
     <string name="loadimage">loadimage\n</string>
     <string name="appName">IQ BAR SURFER</string>
-    <string name="login">login</string>
+    <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="click_to_register">Click to Register</string>
@@ -10,7 +10,7 @@
     <string name="click_to_login">Click to Login</string>
     <string name="something">something</string>
     <string name="logout">logout</string>
-    <string name="submit">Submit</string>
+    <string name="submit">Submit | Dont Know</string>
     <string name="option_4">Option 4</string>
     <string name="option_3">Option 3</string>
     <string name="option_2">Option 2</string>
@@ -44,4 +44,8 @@
     <string name="profession">Profession</string>
     <string name="back">Back</string>
     <string name="see_answers">See Answers</string>
+    <string name="user">User</string>
+    <string name="welcome_to_iq_bar_surfer">Welcome to IQ Bar Surfer</string>
+    <string name="leave">Leave</string>
+    <string name="forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery">Forgot password ? Consider registering a new account or email to fnirmal802@gmail.com with your email adress with the subject \'Account recovery\'</string>
 </resources>

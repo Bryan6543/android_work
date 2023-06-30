@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="@drawable/woodentreeblack"
     android:layout_height="match_parent"
     tools:context=".correctAnswers">
 
@@ -12,12 +13,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:text="@string/what_number_comes_next_in_the_sequence_1_4_9_16_25"
         />
 
     <TextView
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/_36"
         />
@@ -26,6 +29,7 @@
         android:layout_width="wrap_content"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/if_all_bloops_are_razzies_and_all_razzies_are_lazzies_then_which_of_the_following_statements_must_be_true"
         />
@@ -33,6 +37,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/all_lazzies_are_razzies"
         />
 
@@ -40,12 +45,14 @@
         android:layout_width="wrap_content"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/which_of_the_following_words_is_the_odd_one_out"
         />
 
     <TextView
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/apple"
         />
@@ -54,6 +61,7 @@
         android:layout_width="wrap_content"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/a_plane_crashes_on_the_border_of_the_united_states_and_canada_where_do_they_bury_the_survivors"
         />
@@ -61,12 +69,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/nowhere_you_don_t_bury_survivors"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:text="@string/if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a"
         />
@@ -74,11 +84,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/time_of_day"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="@string/if_a_cat_is_worth_10_a_dog_is_worth_15_and_a_bird_is_worth_5_what_is_the_value_of_a_horse"
@@ -87,11 +99,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/_25"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="@string/how_many_times_can_you_subtract_10_from_100"
@@ -100,11 +114,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/once"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="@string/if_a_quarter_and_a_dime_were_in_your_pocket_and_you_took_out_a_nickel_how_much_money_would_you_have"
@@ -113,11 +129,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/_60_cents"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="@string/which_one_of_the_five_is_least_like_the_other_four"
@@ -126,11 +144,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/potato"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="@string/if_you_rearrange_the_letters_eviction_you_would_get_the_name_of_a"
@@ -139,6 +159,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/profession"
         />
 
@@ -146,6 +167,8 @@
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#7A1515"
+        android:textColor="@color/white"
         android:text="@string/back"
         android:layout_marginTop="10dp"
         />

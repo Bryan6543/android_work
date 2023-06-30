@@ -636,7 +636,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="black">#8CB3FF</color>
+    <color name="black">#2E469C</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -2007,6 +2007,7 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery">Forgot password ? Consider registering a new account or email to fnirmal802@gmail.com with your email adress with the subject \'Account recovery\'</string>
     <string name="gcm_defaultSenderId" translatable="false">683094346612</string>
     <string name="google_api_key" translatable="false">AIzaSyCI4ZtqpfxvL8P55WEwgLXtGm1sWvEgK18</string>
     <string name="google_app_id" translatable="false">1:683094346612:android:20cb7b5c03ef612ce2ba21</string>
@@ -2021,8 +2022,9 @@
     <string name="if_you_rearrange_the_letters_eviction_you_would_get_the_name_of_a">10) If you rearrange the letters \'EVICTION,\' you would get the name of a:</string>
     <string name="if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a">5) If you rearrange the letters \'NOON\', you would get the name of a:</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="leave">Leave</string>
     <string name="loadimage">loadimage\n</string>
-    <string name="login">login</string>
+    <string name="login">Login</string>
     <string name="logout">logout</string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
@@ -2162,9 +2164,11 @@
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="something">something</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="submit">Submit</string>
+    <string name="submit">Submit | Dont Know</string>
     <string name="take_quest">General IQ Test (10)</string>
     <string name="time_of_day">Time of day</string>
+    <string name="user">User</string>
+    <string name="welcome_to_iq_bar_surfer">Welcome to IQ Bar Surfer</string>
     <string name="what_number_comes_next_in_the_sequence_1_4_9_16_25">1) What number comes next in the sequence: 1, 4, 9, 16, 25, ...</string>
     <string name="which_of_the_following_words_is_the_odd_one_out">3) Which of the following words is the odd one out?</string>
     <string name="which_one_of_the_five_is_least_like_the_other_four">9) Which one of the five is least like the other four?</string>

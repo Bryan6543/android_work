@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:layout_marginTop="50dp"
+    android:background="@drawable/woodentreeblack"
     tools:context=".quiz" >
 
     <TextView
@@ -14,6 +14,7 @@
         android:id="@+id/questionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/question" />
 
     <RadioGroup
@@ -26,9 +27,11 @@
         <RadioButton
             android:padding="10dp"
             android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
             android:id="@+id/option1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
             android:text="@string/option_1" />
 
         <RadioButton
@@ -36,7 +39,9 @@
             android:layout_marginBottom="5dp"
             android:id="@+id/option2RadioButton"
             android:layout_width="wrap_content"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
             android:text="@string/option_2" />
 
         <RadioButton
@@ -44,15 +49,19 @@
             android:layout_marginBottom="5dp"
             android:id="@+id/option3RadioButton"
             android:layout_width="wrap_content"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
             android:text="@string/option_3" />
 
         <RadioButton
             android:padding="10dp"
             android:layout_marginBottom="5dp"
             android:id="@+id/option4RadioButton"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
             android:text="@string/option_4" />
 
     </RadioGroup>
@@ -62,16 +71,29 @@
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#005C1A"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
         android:text="@string/submit" />
 
-    <TextView
-        android:textSize="15sp"
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/leave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:backgroundTint="#930101"
+        android:textColor="@color/white"
+        android:text="@string/leave" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
         android:text="@string/remember_iq_questions_can_vary_in_difficulty_and_may_not_solely_determine_a_person_s_intelligence"
-        />
-<!--    <Button-->
+        android:textSize="15sp" />
+
+    <!--    <Button-->
 <!--        android:id="@+id/seeScoreButton"-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
