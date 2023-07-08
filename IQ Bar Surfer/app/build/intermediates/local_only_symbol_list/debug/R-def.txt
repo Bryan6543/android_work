@@ -3,6 +3,7 @@ local
 color black
 color white
 drawable bg_button_grd
+drawable giqbarselector
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable load_image
@@ -59,6 +60,8 @@ string default_web_client_id
 string email
 string forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery
 string gcm_defaultSenderId
+string general_iq_test
+string go_offline
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -72,6 +75,7 @@ string if_you_rearrange_the_letters_noon_you_would_get_the_name_of_a
 string leave
 string loadimage
 string login
+string login_and_register_for_futrure_newsletters_and_offers
 string logout
 string more_iq_test_options_on_the_next_update
 string nowhere_you_don_t_bury_survivors

@@ -3,6 +3,7 @@ package com.example.iqbarsurfer;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth auth;
     TextView tv;
-    Button btn, btn2;
+    Button btn;
+    ImageButton btn2;
     FirebaseUser user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -17,6 +17,8 @@
     <string name="email">Email</string>
     <string name="forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery">Forgot password ? Consider registering a new account or email to fnirmal802@gmail.com with your email adress with the subject \'Account recovery\'</string>
     <string name="gcm_defaultSenderId" translatable="false">683094346612</string>
+    <string name="general_iq_test">general IQ Test</string>
+    <string name="go_offline">Go Offline</string>
     <string name="google_api_key" translatable="false">AIzaSyCI4ZtqpfxvL8P55WEwgLXtGm1sWvEgK18</string>
     <string name="google_app_id" translatable="false">1:683094346612:android:20cb7b5c03ef612ce2ba21</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI4ZtqpfxvL8P55WEwgLXtGm1sWvEgK18</string>
@@ -30,7 +32,8 @@
     <string name="leave">Leave</string>
     <string name="loadimage">loadimage\n</string>
     <string name="login">Login</string>
-    <string name="logout">logout</string>
+    <string name="login_and_register_for_futrure_newsletters_and_offers">Register and login for Futrure newsletters , updates and offers</string>
+    <string name="logout">logout | Exit</string>
     <string name="more_iq_test_options_on_the_next_update">More IQ Test Options on the next update</string>
     <string name="nowhere_you_don_t_bury_survivors">Nowhere, you don\'t bury survivors</string>
     <string name="once">Once</string>

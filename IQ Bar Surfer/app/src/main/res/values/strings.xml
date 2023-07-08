@@ -9,7 +9,7 @@
     <string name="register">Register</string>
     <string name="click_to_login">Click to Login</string>
     <string name="something">something</string>
-    <string name="logout">logout</string>
+    <string name="logout">logout | Exit</string>
     <string name="submit">Submit | Dont Know</string>
     <string name="option_4">Option 4</string>
     <string name="option_3">Option 3</string>
@@ -48,4 +48,7 @@
     <string name="welcome_to_iq_bar_surfer">Welcome to IQ Bar Surfer</string>
     <string name="leave">Leave</string>
     <string name="forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery">Forgot password ? Consider registering a new account or email to fnirmal802@gmail.com with your email adress with the subject \'Account recovery\'</string>
+    <string name="go_offline">Go Offline</string>
+    <string name="login_and_register_for_futrure_newsletters_and_offers">Register and login for Futrure newsletters , updates and offers</string>
+    <string name="general_iq_test">general IQ Test</string>
 </resources>

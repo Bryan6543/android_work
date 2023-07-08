@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class register extends AppCompatActivity {
 
     TextInputEditText edittextpassword, edittextemail;
-    Button  buttonReg;
+    Button  buttonReg ;
     FirebaseAuth mAuth;
     ProgressBar progressb;
     TextView textview;
@@ -59,6 +59,8 @@ public class register extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+
 
         buttonReg.setOnClickListener(v -> {
             if (!isNetworkAvailable()) {

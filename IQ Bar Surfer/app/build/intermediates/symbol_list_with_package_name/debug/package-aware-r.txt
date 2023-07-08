@@ -2957,6 +2957,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable giqbarselector
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -3866,6 +3867,8 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string forgot_password_consider_registering_a_new_account_or_email_to_fnirmal802_gmail_com_with_your_email_adress_with_the_subject_account_recovery
 string gcm_defaultSenderId
+string general_iq_test
+string go_offline
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -3882,6 +3885,7 @@ string item_view_role_description
 string leave
 string loadimage
 string login
+string login_and_register_for_futrure_newsletters_and_offers
 string logout
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
