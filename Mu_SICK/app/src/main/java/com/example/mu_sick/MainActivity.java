@@ -7,22 +7,31 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
 import java.util.ArrayList;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     TextView noMusicTextView;
     ArrayList<AudioModel> songslist = new ArrayList<>();
+
+    FirebaseUser user;
+    FirebaseAuth auth;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +40,22 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recycler_view);
         noMusicTextView = findViewById(R.id.no_songs_text);
+        auth = FirebaseAuth.getInstance();
+        user = auth.getCurrentUser();
+        btn = findViewById(R.id.btn_logout);
+
+        if (user == null){
+            Intent intent = new Intent(getApplicationContext(), login.class);
+            startActivity(intent);
+            finish();
+        }
+
+        btn.setOnClickListener(v -> {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(getApplicationContext(), login.class);
+            startActivity(intent);
+            finish();
+        });
 
         if (checkPermission() == false) {
             requestPermission();

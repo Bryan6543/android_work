@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52076422270",
+    "project_id": "mu-sick",
+    "storage_bucket": "mu-sick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52076422270:android:ea53306f63f146f322642f",
+        "android_client_info": {
+          "package_name": "com.example.mu_sick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52076422270-mr2h64n7jso7n9p50anfee1t8rbqkgna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsy5LhemicIYO-pih6aVU39G42wUZ6eiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52076422270-mr2h64n7jso7n9p50anfee1t8rbqkgna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
